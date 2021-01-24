@@ -67,7 +67,7 @@ if __name__ == '__main__':
 			pygame.event.clear()
 			objt.bas = obj[1][1]-obj[1][2]
 			base.hau = base[2]
-			if >= 290:
+			if objt.bas <= base.haut :
 				obj = cubeGenerator()
 			pygame.time.wait(1000)
 		
